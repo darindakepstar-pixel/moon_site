@@ -244,3 +244,9 @@ h1, h2, h3, p, figure { margin: 0; }
 .cup--a { left: 17%; bottom: 6%; height: 76%; }
 .cup--b { right: 0; bottom: 0; height: 64%; }
 @media (max-width: 960px) { .slide__float { width: 70vw; height: 42vh; } }
+
+/* подпись автора */
+.credit .dk-sig { font-size: 15px; }
+.credit__by { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: currentColor; }
+.credit__by:hover { text-decoration-color: transparent; }
+@media (max-width: 440px) { .h2 { font-size: 7.6vw; overflow-wrap: anywhere; } }
